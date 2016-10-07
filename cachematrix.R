@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-# used to get the cache of the matrix
+## used to get the cache of the matrix
 cacheSolve <- function(x, ...) {
   matrixinverse <- x$getmatrixinverse()
   ## if the data exists in cache, it shows "get cache data - unversematrix"
